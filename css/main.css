@@ -46,18 +46,22 @@ ul {
 li {
   line-height: 1.5;
   border: 1px solid #a63f38;
-  text-align: center;
   float: right;
   width: 33.33%;
+  text-align: center;
   padding: .4rem 0;
 }
 
 a {
-  text-align: center;
   text-decoration: none;
   font-size: 1.125rem;
   color: #fff;
   list-style-type: none;
+  padding: .4rem 0;
+}
+
+a:hover {
+  background-color: #a63f38;
 }
 
 li:hover {
