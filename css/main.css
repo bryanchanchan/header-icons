@@ -11,6 +11,7 @@ html {
 header {
   background-color: #d05c2e;
   margin: 0;
+  overflow: hidden;
 }
 
 body {
@@ -21,10 +22,12 @@ h1 {
   text-align: center;
   font-size: 2rem;
   margin: 0;
+  padding: .4rem 0;
 }
 
 img {
   width: 40px;
+  padding: .4rem 0;
 }
 
 .grain-left {
@@ -44,6 +47,9 @@ li {
   line-height: 1.5;
   border: 1px solid #a63f38;
   text-align: center;
+  float: right;
+  width: 33.33%;
+  padding: .4rem 0;
 }
 
 a {
@@ -52,4 +58,8 @@ a {
   font-size: 1.125rem;
   color: #fff;
   list-style-type: none;
+}
+
+li:hover {
+  background-color: #a63f38;
 }
